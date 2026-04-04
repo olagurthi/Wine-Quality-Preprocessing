@@ -81,6 +81,3 @@ python main.py
 | `scikit-learn` | Scaling and train/test split |
 
 ---
-
-## Author
-Lab 3 — Preprocessing & Feature Engineering

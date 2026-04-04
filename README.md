@@ -46,29 +46,11 @@ The goal is to clean and prepare the data so it is ready for machine learning mo
 - Scaler is **fit on training data only**, then applied to both train and test
 - This prevents information from the test set leaking into training
 
----
-
-## How to Run
-
-1. Make sure `WineQT.csv` and `main.py` are in the same folder
-2. Install dependencies:
-```
-pip install pandas numpy matplotlib seaborn scikit-learn
-```
-3. Run the script:
-```
-python main.py
-```
-
----
-
 ## Output
 
 - Printed summaries for each preprocessing step
 - Visualisations: missing value heatmap, boxplots before/after outlier treatment, class distribution bar chart
 - Final scaled datasets: `X_train_scaled`, `X_test_scaled`, `y_train`, `y_test`
-
----
 
 ## Libraries Used
 
@@ -80,4 +62,3 @@ python main.py
 | `seaborn` | Statistical visualisations |
 | `scikit-learn` | Scaling and train/test split |
 
----

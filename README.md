@@ -6,36 +6,6 @@ This project performs a full preprocessing and feature engineering pipeline on t
 
 The goal is to clean and prepare the data so it is ready for machine learning models.
 
----
-
-## Dataset
-
-| Property | Value |
-|----------|-------|
-| File | `WineQT.csv` |
-| Rows | ~1,143 |
-| Columns | 13 (12 features + 1 target) |
-| Target | `quality` (integer score 3–8) |
-
-### Features
-
-| Column | Description |
-|--------|-------------|
-| fixed acidity | Most acids in wine (tartaric acid) |
-| volatile acidity | Acetic acid — too high causes vinegar taste |
-| citric acid | Adds freshness and flavour |
-| residual sugar | Sugar remaining after fermentation |
-| chlorides | Salt content |
-| free sulfur dioxide | Free form of SO₂ — prevents microbial growth |
-| total sulfur dioxide | Total SO₂ (free + bound) |
-| density | Density of wine |
-| pH | Acidity level (0–14 scale) |
-| sulphates | Additive contributing to SO₂ |
-| alcohol | Alcohol percentage |
-| quality | **Target variable** — score between 3 and 8 |
-
----
-
 ## Steps Performed in `main.py`
 
 ### 1. Load the Dataset

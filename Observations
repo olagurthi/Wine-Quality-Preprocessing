@@ -1,0 +1,6 @@
+The WineQT dataset was inspected across all 12 columns and returned zero missing values for every feature, confirming the data is fully complete.
+However, a number of duplicate rows were found wines that had been recorded more than once  and these were removed using drop_duplicates() to ensure each sample is unique before analysis.
+Boxplots revealed that features such as chlorides, residual sugar, and total sulfur dioxide contained visible outlier points beyond their upper whiskers,
+which were treated using IQR-based capping to clip extreme values without losing any rows. After binarising the quality column into a good/bad label at a threshold of 6,
+the class distribution showed that the majority of wines fall into the good category, an imbalance worth considering during modeling. 
+Finally, alcohol and sulphates appear to be the strongest positive predictors of wine quality, while volatile acidity shows a negative relationship, where higher values consistently correspond to lower quality scores.
